@@ -10,7 +10,6 @@
 
 html {
     font-family: "Roboto Slab", serif;
-    opacity: 0.9;
 }
 
 ul {
@@ -28,8 +27,9 @@ a {
 }
 
 .section1 {
-    background: #000000e7 url("/storage/img/placeYourImageHere0.png") center / cover no-repeat;
+    background: rgba(0, 0, 0, 0.878) url("/storage/img/placeYourImageHere0.png") center / cover no-repeat;
     background-blend-mode: darken;
+    opacity: 0.95;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -111,4 +111,34 @@ a {
     cursor: pointer;
     width: 200px;
     height: 70px;
+}
+
+.section2 {
+    background-color: var(--color-secundary);
+    height: 100vh;
+    display: flex;
+
+}
+
+.about__container> div{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    height: 100vh;
+}
+
+.about__img {
+    width: 100vh;
+}
+
+.about__img img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.about_text {
+    color: var(--color-font);
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
 }
