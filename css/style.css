@@ -28,7 +28,7 @@ a {
 }
 
 .section1 {
-    background: linear-gradient(#17171e, #3b3b3bde), url("../storage/img/placeYourImageHere0.png") center / cover no-repeat;
+    background: linear-gradient(#0d0d0dec, #222121ee), url("../storage/img/placeYourImageHere0.png") center / cover no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -220,43 +220,38 @@ a {
 .section4 {
     flex-direction: column;
     display: flex;
-    height: 120vh;
+    height: 105vh;
     background-color: var(--color-secundary);
-    align-items: center;
 }
 .gallery_container {
-    width: 65vw;
-    height: 100vh;
+    width: 99vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--color-font);
-    justify-content: center;
     flex: 1;
 }
 .gallery_container > h1 {
-    padding-top:  50px;
-    padding-bottom: 50px;
-    font-size: 2vw;
+    padding-top:  25px;
+    padding-bottom: 25px;
+    font-size: 3vw;
     font-weight: bold;
 }
 .galeria {
-    width: 48vw;
+    width: 55vw;
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
-    inset: 0;
-    justify-content: space-between;
 }
 .img7 {
-    padding: 20px;
-    width: 13vw;
-    height: auto;
+    padding: 10px;
+    width: 18vw;
 }
 .section5 {
     background-image:  url("../storage/img/placeYourImageHereOur0.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,7 +266,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: var(--color-container4);
+    background-color: #121218b8;
     font-family: var(--fuente-titulo);
 }
 .enjoy_container >h1 {
@@ -282,26 +277,23 @@ a {
     justify-content: center;
     height: 300px;
     display: flex;
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 .section6 {
     background-color: var(--color-secundary);
     flex-direction: column;
     display: flex;
-    height: 90vh;
+    height: 110vh;
     align-items: center;
 }
 .section6 >h1{
     color: var(--color-font);
     font-family: var(--fuente-titulo);
-    font-size: 2vw;
-    padding-top: 100px;
-    padding-bottom: 30px;
+    font-size: 3vw;
+    padding-top: 50px;
 }
 .menu_container {
     width: 68vw;
@@ -310,40 +302,46 @@ a {
     display: flex;
     flex: 1;
     justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.containerimg1, .containerimg2, .containerimg3 {
+    display: flex;
+    justify-content: center;
     flex-direction: column;
 }
-.img9 {
-    width: 20vw;
-    padding: 15px;
-}
+
 .subcontainer {
     display: flex;
     height: 25vh;
     font-family: var(--fuente-titulo);
 }
+
 .sub {
     padding: 10px;
 }
+
 .sub >h1 {
     color: var(--color-primary);
     font-size: 1vw;
 }
+
 .sub >p {
     color: var(--color-font);
-    padding-top: 15px;
     font-size: 0.8vw;
-    padding-right: 30px;
 }
+
 .sub >h2 {
     color: var(--color-primary);
     padding-top: 1vw;
 }
 .section7 {
     background-color: var(--color-secundary);
-    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    position: relative;
 }
 .bestmeal_container {
     background-color: var(--color-primary);
@@ -396,10 +394,9 @@ a {
 }
 .img10 {
     position: absolute;
-    top: 0;
-    top: 810vh;
     left: 0;
     width: 35vw;
+    top: -20%;
 }
 .iconos{
     display: flex;
