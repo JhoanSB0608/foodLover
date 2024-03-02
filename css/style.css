@@ -73,7 +73,6 @@ a {
     color: var(--color-primary);
 }
 
-
 .home__content,
 .about__container>div {
     display: grid;
@@ -223,6 +222,7 @@ a {
     height: 105vh;
     background-color: var(--color-secundary);
 }
+
 .gallery_container {
     width: 99vw;
     display: flex;
@@ -231,12 +231,14 @@ a {
     color: var(--color-font);
     flex: 1;
 }
+
 .gallery_container > h1 {
     padding-top:  25px;
     padding-bottom: 25px;
     font-size: 3vw;
     font-weight: bold;
 }
+
 .galeria {
     width: 55vw;
     display: flex;
@@ -247,6 +249,7 @@ a {
     padding: 10px;
     width: 18vw;
 }
+
 .section5 {
     background-image:  url("../storage/img/placeYourImageHereOur0.png");
     background-repeat: no-repeat;
@@ -256,6 +259,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 .enjoy_container {
     outline: 10px solid var(--color-primary);
     width: 700px;
@@ -269,10 +273,12 @@ a {
     background-color: #121218b8;
     font-family: var(--fuente-titulo);
 }
+
 .enjoy_container >h1 {
     font-size: 4vw;
     font-weight: bold;
 }
+
 .enjoy_container >p {
     justify-content: center;
     height: 300px;
@@ -282,6 +288,7 @@ a {
     line-height: 1.5;
     text-align: center;
 }
+
 .section6 {
     background-color: var(--color-secundary);
     flex-direction: column;
@@ -289,12 +296,14 @@ a {
     height: 110vh;
     align-items: center;
 }
+
 .section6 >h1{
     color: var(--color-font);
     font-family: var(--fuente-titulo);
     font-size: 3vw;
     padding-top: 50px;
 }
+
 .menu_container {
     width: 68vw;
     inset: 0;
@@ -336,6 +345,7 @@ a {
     color: var(--color-primary);
     padding-top: 1vw;
 }
+
 .section7 {
     background-color: var(--color-secundary);
     display: flex;
@@ -343,12 +353,14 @@ a {
     justify-content: end;
     position: relative;
 }
+
 .bestmeal_container {
     background-color: var(--color-primary);
     height: 48vh;
     display: flex;
     justify-content: end;
 }
+
 .bestmeal_subcontainer {
     padding-right: 50px;
     width: 55vw;
@@ -358,15 +370,18 @@ a {
     flex-direction: column;
     justify-content: center;
 }
+
 .bestmeal_subcontainer >h1 {
     font-size: 3.5vw;
 }
+
 .bestmeal_subcontainer >p {
     font-size: 1.5vw;
     font-weight: bold;
     padding-top: 10px;
     padding-right: 400px;
 }
+
 .footer_container {
     background-color: var(--color-ternario);
     height:35vh;
@@ -375,6 +390,7 @@ a {
     align-items: center;
     padding-top: 40px;
 }
+
 .menufinal {
     width: 50vw;
     display: flex;
@@ -382,33 +398,39 @@ a {
     height: 12vh;
     align-items: center;
 }
+
 .menufinal >a {
     color: var(--color-font);
     text-decoration: none;
     
 }
+
 .menufinal >a:hover {
     color: var(--color-primary);
     transition: 0.3s;
     cursor: pointer;
 }
+
 .img10 {
     position: absolute;
     left: 0;
     width: 35vw;
     top: -20%;
 }
+
 .iconos{
     display: flex;
     justify-content: center;
     height: 1vw;
     font-size: 2vw;
 }
+
 .bx {
     display: flex;
     justify-content: space-between;
     width: 4.5vw;
 }
+
 .bx:hover {
     cursor: pointer;
 }
