@@ -166,7 +166,10 @@ a {
     flex-direction: column;
     padding-top: 2rem;
 }
+.section3 {
+    width: 100vw;
 
+}
 .quality__bg img {
     width: 100%;
 }
